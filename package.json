@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "3.13.0"
+  },
+  "name": "ephemeral-store",
+  "version": "0.0.1",
+  "description": "Ephemeral key-value store that only persists for the time of a single user session.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimDaub/ephemeral-store.git"
+  },
+  "keywords": [
+    "ephemeral",
+    "storage",
+    "store",
+    "cookies",
+    "localstorage",
+    "browser"
+  ],
+  "author": "Tim Daubenschütz <tim@daubenschuetz.de> (https://timdaub.github.io/)",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/TimDaub/ephemeral-store/issues"
+  },
+  "homepage": "https://github.com/TimDaub/ephemeral-store#readme"
+}
